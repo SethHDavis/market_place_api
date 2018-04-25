@@ -8,6 +8,14 @@ gem 'railties', '5.1.5'
 
 gem 'listen'
 
+group :test do
+  gem "rspec-rails"
+  gem "factory_bot_rails"
+  gem 'ffaker'
+end
+
+gem 'rspec'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
